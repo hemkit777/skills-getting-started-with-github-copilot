@@ -37,7 +37,10 @@ main {
 
 @media (min-width: 768px) {
   main {
+    display: grid; /* Fix: switch to grid for grid-template-columns to work */
     grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    justify-content: center;
   }
 }
 
